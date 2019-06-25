@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Andrii Kvach</title>
+	
+
+	<!-- start google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Poppins:300,700" rel="stylesheet">
+
+	<!-- Bootstrap 4 -->
+	<!--<link href="css/bootstrap.min.css" rel="stylesheet"> -->
+	<!-- Font Awesome icon-->
+	<!-- <link href="libs/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/> -->
+	<!-- Custom CSS -->
+	<link href="css/main.css" rel="stylesheet" >
+	<!--device.js для перевірки типу пристрою (пк, планшет, телефон) та орієнтацію екрана -->
+	<script type="text/javascript" src="js/device.js"></script> 
+</head>
+<body>
+	<div class="wraper">
+		<div class="descript-blok">
+			<h2>Deleniti explicari democritum</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+		</div>
+	</div>
+	
+	<div class="content-block">
+
+		<div class="timeline-container">
+
+			<div class="logo-blok">
+				<a href="#">Logo</a>
+			</div>
+
+			<div class="timeline" id="spin">
+				<div class="pull"><span class="date-item">TODAY</span></div>
+				<div class="pull"><span class="date-item">2017</span></div>
+				<div class="pull"><span class="date-item">2015</span></div>
+				<div class="pull"><span class="date-item">2012</span></div>
+				<div class="pull"><span class="date-item active">2011</span></div>
+				<div class="pull"><span class="date-item">2007</span></div>
+				<div class="pull"><span class="date-item">2006</span></div>
+				<div class="pull"><span class="date-item">2004</span></div>
+				<div class="pull"><span class="date-item">2001</span></div>
+			</div>
+		</div>
+
+		<div class="date-block">
+			<div class="date-title">
+				<h1>Deleniti explicarii democritum nam no, no debitis praullamco laboris</h1>
+			</div>
+			
+			<div class="date-wrap">
+				<div class="line-wrap">
+					<div class="line line-anim-width"></div>
+				</div>
+				<div class="content-wrap">
+					<div class="content-scroll">
+						<div class="content">
+							<span class="date">2019</span>
+							<p class="date-info">
+								Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.
+							</p>
+						</div>
+						
+						<div class="content">
+							<span class="date">2017</span>
+							<p class="date-info">
+								Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.
+							</p>
+						</div>
+						
+						<div class="content">
+							<span class="date">2015</span>
+							<p class="date-info">
+								Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.
+							</p>
+						</div>
+
+						<div class="content">
+							<span class="date">2012</span>
+							<p class="date-info">
+								Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.
+							</p>
+						</div>
+						
+						<div class="content">
+							<span class="date">2011</span>
+							<p class="date-info">
+								Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.
+							</p>
+						</div>
+						
+						<div class="content">
+							<span class="date">2007</span>
+							<p class="date-info">
+								Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.
+							</p>
+						</div>
+
+						<div class="content">
+							<span class="date">2006</span>
+							<p class="date-info">
+								Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.
+							</p>
+						</div>
+
+						<div class="content">
+							<span class="date">2004</span>
+							<p class="date-info">
+								Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.
+							</p>
+						</div>
+
+						<div class="content">
+							<span class="date">2001</span>
+							<p class="date-info">
+								Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.
+							</p>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-menu">
+			<!-- Этот чекбокс даст нам поведение переключателя, он будет скрыт, но работать -->
+			<input id="toggle" type="checkbox">
+			<!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении состояния чекбокса, является «братским» элементом для чекбокса -->
+			<div class="container">		
+				<!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+				<label class="toggle-container" for="toggle">
+					<!-- Если меню открыто, то здесь будет иконка «X», в противном случае просто иконка гамбургера -->
+					<span class="button button-toggle"></span>
+				</label>
+				<!-- Навигация -->
+				<nav class="nav">
+					<a rel="nofollow" rel="noreferrer" class="nav-item" href="">About</a>
+					<a rel="nofollow" rel="noreferrer" class="nav-item" href="">Testimonials</a>
+					<a rel="nofollow" rel="noreferrer" class="nav-item" href="">Pricing</a>
+					<a rel="nofollow" rel="noreferrer" class="nav-item" href="">Contact</a>
+					<a rel="nofollow" rel="noreferrer" class="nav-item nav-item-btn" href="">ORDER NOW</a>
+				</nav>
+			</div>
+		</div> <!-- .container-menu -->
+		
+	</div>
+	
+
+	<script type="text/javascript">
+		// if(device.desktop()) alert('ПК');
+		// if(device.tablet()) alert('Планшет');
+		// if(device.mobile()) alert('Смартфон');   
+	</script>
+
+
+	
+
+	<!-- jQuery -->
+	<!-- <script src="js/jquery-3.2.1.min.js"></script> -->
+	<!-- Bootstrap 4 + libs Popper.js -->
+	<!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+	<!-- Custom script -->
+	
+	<script src="js/common.js"></script>
+
+</body>
+</html>
