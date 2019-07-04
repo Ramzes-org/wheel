@@ -362,31 +362,30 @@ TIMELINE STYLES
 ============================================================ */
 .timeline-container {
   width: 335px;
+  padding: 100px;
   overflow: hidden;
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
-          flex-shrink: 0;
-  /*	padding: 50px 0;*/ }
-
-.timeline {
-  width: 700px;
-  border: 2px solid white;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
-  position: relative;
-  margin-left: -450px;
-  /*transform: translateX(20%) rotate(0deg);*/
-  /*box-shadow: #000000 0 0 0 10vw,
-				#ffffff 0 0 0 11vw;*/
-  /*background: radial-gradient(circle at center, 	rgba(0,0,0,1)50%, 
-													rgba(255,255,255,0.6) 1px,
-													rgba(0,0,0,1) calc(50% + 2px));*/ }
+          flex-shrink: 0; }
 
 #spin {
   /*transition: .7s;*/
   -webkit-transform: rotate(-40deg);
       -ms-transform: rotate(-40deg);
           transform: rotate(-40deg); }
+
+.wraper-timeline {
+  width: 700px;
+  border: 2px solid white;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: relative;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%); }
+
+.timeline {
+  /*margin-left: -450px;*/ }
 
 .timeline::before {
   content: "";

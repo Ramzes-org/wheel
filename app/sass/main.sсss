@@ -1,8 +1,6 @@
 /* =============================================================
 GENERAL STYLES
 ============================================================ */
-
-
 /*Custom colors*/
 $c-pink: rgb(222, 43, 186);
 $c-black: rgb(0, 0, 0);
@@ -323,30 +321,31 @@ TIMELINE STYLES
 
 .timeline-container {
 	width: 335px;
+	padding: 100px;
 	overflow: hidden;
 	flex-shrink: 0;
-/*	padding: 50px 0;*/
-}
-
-.timeline {
-	width: 700px;
-	border: 2px solid rgb(255, 255, 255);
-	border-radius: 50%;
-	position: relative;
-	margin-left: -450px;
-	
-	/*transform: translateX(20%) rotate(0deg);*/
-	/*box-shadow: #000000 0 0 0 10vw,
-				#ffffff 0 0 0 11vw;*/
-	/*background: radial-gradient(circle at center, 	rgba(0,0,0,1)50%, 
-													rgba(255,255,255,0.6) 1px,
-													rgba(0,0,0,1) calc(50% + 2px));*/
 }
 
 #spin {
 	/*transition: .7s;*/
 	transform:  rotate(-40deg);
 }
+
+.wraper-timeline {
+	width: 700px;
+	border: 2px solid rgb(255, 255, 255);
+	border-radius: 50%;
+	position: relative;
+	transform: translateX(-50%);
+}
+
+.timeline {
+	
+	/*margin-left: -450px;*/
+
+}
+
+
 
 .timeline::before{
     content:"";

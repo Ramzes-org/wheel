@@ -1,7 +1,6 @@
 {
   "name": "smart",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +22,14 @@
     "gulp-uglifyjs": "^0.6.2",
     "imagemin-pngquant": "^5.0.1",
     "node-sass": "^4.12.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramzes-org/wheel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ramzes-org/wheel/issues"
+  },
+  "homepage": "https://github.com/Ramzes-org/wheel#readme",
+  "description": ""
 }
