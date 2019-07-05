@@ -28,42 +28,47 @@ ul {
 /* =============================================================
 Modul STYLES
 ============================================================ */
-.wraper {
-  padding-top: 125px;
-  padding-bottom: 67px; }
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
 
 /*logo blok*/
 .logo-blok {
-  width: 330px;
-  text-align: center; }
-
-.logo-blok a {
-  font-size: 1.6em;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  color: white; }
+  padding-top: 25px; }
+  .logo-blok a {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: white; }
 
 /*description blok header and bootom*/
-.descript-blok {
-  max-width: 345px;
-  padding-bottom: 122px;
-  margin: 0 auto; }
-
-.descript-blok h2 {
-  font-size: 2.4em;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  margin-top: 0;
-  margin-bottom: 6px; }
-
-.descript-blok p {
-  font-size: 1.4em;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 11px;
-  line-height: 1.4; }
+.wraper {
+  padding-top: 25px;
+  padding-bottom: 100px; }
+  .wraper .descript-blok {
+    max-width: 345px; }
+    .wraper .descript-blok h2 {
+      font-size: 2.4em;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 6px; }
+    .wraper .descript-blok p {
+      font-size: 1.4em;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 11px;
+      line-height: 1.4; }
 
 .content-block {
   display: -webkit-box;
@@ -80,7 +85,6 @@ Modul STYLES
 ============================================================ */
 .container-menu {
   width: 330px;
-  height: 571px;
   overflow: hidden;
   /*position: fixed;
   	top: 50%;
