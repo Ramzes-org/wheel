@@ -42,50 +42,53 @@ ul {
 /* =============================================================
 Modul STYLES
 ============================================================ */
-.wraper {
-	padding-top: 125px;
-	padding-bottom: 67px;
+.row {
+	display: flex;
+	flex-wrap: wrap;
+
 }
 
 /*logo blok*/
-
 .logo-blok {
-	width: 330px;
-	text-align: center;
-}
-
-.logo-blok a {
-	font-size: 1.6em;
-	text-transform: uppercase;
-	font-family: $f-pop;
-	font-weight: 300;
-	color: $c-white; 
+	padding: 0 143px;
+		a {
+		font-size: 1.6em;
+		text-transform: uppercase;
+		font-family: $f-pop;
+		font-weight: 300;
+		color: $c-white; 
+	}
 }
 
 /*description blok header and bootom*/
-.descript-blok {
-	max-width: 345px;
-	padding-bottom: 122px;
-	margin: 0 auto;
+.wraper {
+	padding-top: 80px;
+	padding-bottom: 90px;
+		.descript-blok {
+		max-width: 345px;
+		margin: 0 auto;
+			h2 {
+			font-size: 2.4em;
+			font-family: $f-open;
+			font-weight: 600;
+			margin-top: 0;
+			margin-bottom: 6px;
+		}
+		p {
+			font-size: 1.4em;
+			font-family: $f-open;
+			font-weight: 400;
+			margin-top: 0;
+			margin-bottom: 11px;
+			line-height: 1.4;
+		}
+	}
 }
 
-.descript-blok h2 {
-	font-size: 2.4em;
-	font-family: $f-open;
-	font-weight: 600;
-	margin-top: 0;
-	margin-bottom: 6px;
+.wraper-bottom {
+	padding-top: 0;
+	padding-bottom: 50px;
 }
-
-.descript-blok p {
-	font-size: 1.4em;
-	font-family: $f-open;
-	font-weight: 400;
-	margin-top: 0;
-	margin-bottom: 11px;
-	line-height: 1.4;
-}
-
 
 .content-block {
 	display: flex;
@@ -97,8 +100,8 @@ Modul STYLES
 ============================================================ */
 .container-menu {
   	width: 330px;
-  	height: 571px;
   	overflow: hidden;
+  	margin-top: -52px;
   	/*position: fixed;
   	top: 50%;
   	right: 0;*/
@@ -232,7 +235,7 @@ Modul STYLES
 /* Меню */
 .nav {
 	display: inline-block;
-	margin: 25px 0 20px;
+	margin: 25px 0 0;
 	transform: translateX(150px);
 	pointer-events: none;
 	transition: 0.5s;
@@ -421,7 +424,7 @@ TIMELINE STYLES
 .date-title h1 {
 	width: 300px;
 	font-size: 2.8em;
-	color: $c-white;
+	color: #ffd7f1;
 	font-family: $f-open;
 	font-weight: 400;
 	line-height: 1.286;
@@ -473,6 +476,9 @@ TIMELINE STYLES
 .date {
 	font-size: 179px;
 	letter-spacing: 18px;
+	background: linear-gradient( to right, #fa2caf, #c12ac6);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 	color: #FF27C0;
 	font-family: $f-pop;
 	font-weight: 700;
