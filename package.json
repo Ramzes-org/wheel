@@ -21,7 +21,7 @@
     "gulp-sass": "^3.2.1",
     "gulp-uglifyjs": "^0.6.2",
     "imagemin-pngquant": "^5.0.1",
-    "node-sass": "^4.12.0"
+    "node-sass": "^7.0.0"
   },
   "repository": {
     "type": "git",
